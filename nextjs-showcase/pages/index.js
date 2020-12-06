@@ -12,7 +12,8 @@ export default function Home({ allPostsData }) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>This is a small project with a few pages linked pages. </p>
+                <p>This is a small project with a few linked pages. </p>
+
 
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

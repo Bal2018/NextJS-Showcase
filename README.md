@@ -1,6 +1,6 @@
 # NextJS-Showcase
 This project allows me to showcase my knowledge on NextJS.
-##Features
+## Features
 The project will have :-
 
 -[x] links to other pages 
