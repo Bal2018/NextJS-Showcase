@@ -3,13 +3,13 @@ This project allows me to showcase my knowledge on NextJS.
 ## Features
 The project will have :-
 
--[x] links to other pages 
+* links to other pages 
 
--[x] styled
+* styled
 
--[x] Pre-rendering
+* Pre-rendering
 
--[x] dynamics routes implemented
+* dynamics routes implemented
  
  
  @bal2018
