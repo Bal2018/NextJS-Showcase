@@ -11,7 +11,7 @@ The project will have :-
 
 * Pre-rendering
  
-![Output sample](https://github.com/Bal2018/NextJS-Showcase/blob/main/nextjs-showcase-movie/Nextjs-Overview.gif)
+![Output sample](https://github.com/Bal2018/NextJS-Showcase/blob/main/Nextjs-Overview.gif)
 
  @bal2018
  
