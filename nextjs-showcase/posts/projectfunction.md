@@ -6,6 +6,6 @@ date: '2020-12-01'
  
 After completing the course I felt so empowered with my experience that I decided to give back to the community and applied and become an Instructor here.
 
-One of the reasons ProjectFunction is so successful is because it is taught by a small team of people who understand the challenges faced by marginalised people (women, under represented groups in society) today.  The diversity of the team represents the groups we are trying to teach by understanding the day-to-day challenges faced by them.
+One of the reasons Project Function is so successful is because it is taught by a small team of developers who understand the challenges faced by under-represented groups in society today.  
 
-As an instructor I was also able to bring in my teaching experience to enable the best possible experience for these candidates.
+As an instructor I am able to bring in my teaching experience to enable the best possible experience for these candidates.
