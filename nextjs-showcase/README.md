@@ -12,6 +12,7 @@ The project will have :-
 * Pre-rendering
  
 ![Output sample](https://github.com/Bal2018/NextJS-Showcase/blob/main/nextjs-showcase/Convertor3.gif)
- @bal2018
+
+@bal2018
  
  Licence : MIT see licence.md
