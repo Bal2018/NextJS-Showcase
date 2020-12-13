@@ -9,5 +9,5 @@ Outside of work I am now co-organiser of  <a href="https://phpminds.org/" target
  I have completed a 12 week course with  <a href="https://www.projectfunction.io/" target="_blank">Project Function</a> and am now an Instructor with this voluntary organisation. I have also successfully completed and passed a 6-month course with <a href="https://https://techupwomen.org/" target="_blank">Tech-Up Women</a> which brought me up to speed with the latest in Tech industry. This course was affiliated with Durham University,  Nottingham University, York University and Edgehill University.  I completed the Business Analysis foundation certification.
 
 For the past year I have worked as a junior developer at JH - a small web-agency in Nottingham. 
-I am now looking to broaden my horizon and looking for a more challenging adventure.
+I am now looking to broaden my horizons and looking for a more challenging adventure.
 
