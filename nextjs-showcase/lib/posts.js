@@ -20,18 +20,21 @@ export function getSortedPostsData() {
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents)
 
+     //   console.log(matterResult.data);
+
         // Combine the data with the id
         return {
             id,
             ...matterResult.data
         }
-    })
+    }).filter(p => !p.extrapage)
     // Sort posts by date
     return allPostsData.sort((a, b) => {
+        if (a.pinned) return -1;
         if (a.date < b.date) {
             return 1
         } else {
-            return -1
+            return b.pinned ? 0 : -1
         }
     })
 }

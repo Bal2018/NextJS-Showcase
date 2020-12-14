@@ -2,15 +2,35 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import NavBar from "./Navbar";
+import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const name = 'Bal'
 export const siteTitle = 'Next.js Sample Website'
+
+const pages = [
+    {
+        label:"home",
+        link: "/"
+    },
+    {
+        label:<FontAwesomeIcon icon={faTwitter}/>,
+        link: "https://twitter.com/balhayre"
+    },
+    {
+        label:<FontAwesomeIcon icon={faGithub}/>,
+        link: "https://github.com/Bal2018"
+    }, {
+        label:<FontAwesomeIcon icon={faLinkedinIn}/>,
+        link: "https://linkedin.com/in/baljinder-hayre-8344296a"
+    }
+];
 
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
-                <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"
                     content="Learn how to build a personal website using Next.js"
@@ -24,6 +44,8 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            <NavBar pages={pages}/>
+
             <header className={styles.header}>
                 {home ? (
                     <>
