@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Header} from "./Header";
 import {ContentBackBtn} from "./ContentBackBtn";
 import Head from "next/head";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 
 const name = 'Bal'
 export const siteTitle = 'Next.js Sample Website'
