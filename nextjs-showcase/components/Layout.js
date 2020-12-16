@@ -4,8 +4,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Header} from "./Header";
 import {ContentBackBtn} from "./ContentBackBtn";
 import Head from "next/head";
-import NavBar from "./NavBar";
-import Socials from "./Socials";
+import {NavBar} from "./NavBar";
+import {Socials} from "./Socials";
 
 const name = 'Baljinder Hayre'
 export const siteTitle = "Bal's NextJS Website"

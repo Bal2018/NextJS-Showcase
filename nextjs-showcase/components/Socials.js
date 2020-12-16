@@ -1,8 +1,7 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
 import {SocialsItem} from "./SocialbarItem";
-const Socials = ({pages}) => {
+
+export const Socials = ({pages}) => {
 
     return (
         <div className="Socials">
@@ -12,5 +11,3 @@ const Socials = ({pages}) => {
         </div>
     );
 }
-
-export default Socials;
