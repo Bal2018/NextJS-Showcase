@@ -12,16 +12,17 @@ export const siteTitle = "Bal's NextJS Website"
 
 const pages = [
     {
+        label:<img src="/images/Avator1.png"/>,
+        link: "/"
+    },
+    {
         label:"Blog",
         link: "/blog"
     },
     {
         label:"About",
         link: "/posts/intropage"
-    }
-];
-
-const SocialLinks = [
+    },
     {
         label:<FontAwesomeIcon icon={faTwitter}/>,
         link: "https://twitter.com/balhayre"
@@ -34,6 +35,20 @@ const SocialLinks = [
         link: "https://linkedin.com/in/baljinder-hayre"
     }
 ];
+
+// const SocialLinks = [
+//     {
+//         label:<FontAwesomeIcon icon={faTwitter}/>,
+//         link: "https://twitter.com/balhayre"
+//     },
+//     {
+//         label:<FontAwesomeIcon icon={faGithub}/>,
+//         link: "https://github.com/Bal2018"
+//     }, {
+//         label:<FontAwesomeIcon icon={faLinkedinIn}/>,
+//         link: "https://linkedin.com/in/baljinder-hayre"
+//     }
+// ];
 
 
 export default function Layout({ children, home }) {
@@ -57,12 +72,12 @@ export default function Layout({ children, home }) {
             </Head>
 
             <Header name={name} home={Boolean(home)}/>
-            <NavBar pages={pages}/>
+            <NavBar pages={pages }/>
             <main>
                 {children}
             </main>
             <ContentBackBtn home={Boolean(home)}/>
-            <Socials pages={SocialLinks}/>
+            {/*<Socials pages={SocialLinks}/>*/}
 
         </div>
     )

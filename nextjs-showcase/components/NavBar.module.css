@@ -7,10 +7,10 @@
 }
 
 .NavBar {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: white;
     /*color: white;*/
     width: 100%;
-
+    color:  #597a90;
     /*height: 60px;*/
     display: inline-flex;
     /*padding:  5px 0;*/
@@ -21,11 +21,11 @@
     height: 50px;
     /*background: #151938; !*  #00ACC1;  ////// comment #263238; *!*/
     /*display: block;*/
-    top: 0;
+    top: 2px;
     left: 2px;
     flex-direction: row;
     letter-spacing: 1.5px;
-    padding: 15px 20px;
+    padding: 25px 0px;
     margin: 0;
     list-style-type: none;
     justify-content: space-evenly;
