@@ -9,25 +9,11 @@ export default function Home({ allPostsData }) {
     return (
         <Layout home>
             <section className={utilStyles.headingMd}>
-                <p>This is a small project with a few linked pages. </p>
+                <p>This is a small project with a few linked pages.
+                    The contents may but be all there but the sketeton for linking pages is </p>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Blog</h2>
-                <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, date, title, pinned }) => (
 
-                        <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/posts/${id}`}>
-                                <a>{title}</a>
-                            </Link>
-                            <br />
-
-                            <small className={utilStyles.lightText}>
-                                {pinned ? '' : <Date dateString={date} />}
-                            </small>
-                        </li>
-                    ))}
-                </ul>
             </section>
         </Layout>
     )

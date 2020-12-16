@@ -8,4 +8,4 @@ Further information is available on the <a href="https://projectfunction.io/" ta
 
 As an instructor I am able to bring in my teaching experience to enable the best possible experience for these candidates.
 
-To briefly read more about the topics I learnt, click <a href="../projectfunctionpage2">here</a>. 
+To briefly read more about the topics I learnt, click <a href="./projectfunctionpage2">here</a>. 

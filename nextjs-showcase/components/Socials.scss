@@ -1,6 +1,7 @@
 @import "../theme/theme";
 
-.NavBar {
+.Socials {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   height: 60px;
@@ -8,12 +9,11 @@
   padding: 5px 0;
 
  // background: $primary;
-  display : inline-block;
-  background: $nav-background;
+  background: $social-background;
   font-family: $core-font;
   font-size: 22px;
   //color: $on-primary-light;
-  color: $nav-primary;
+  color: $social-primary;
  // box-shadow: 0px -2px 15px rgba(50, 50, 50, 0.45);
   box-shadow: 0px 10px 20px rgba(10,0,66,0.4);
 
@@ -23,7 +23,7 @@
   }
 
   .active {
-    color: $nav-active;
+    color: $social-active;
     //color: $highlight;
 
   }

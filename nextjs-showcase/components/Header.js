@@ -1,4 +1,4 @@
-import styles from "./layout.module.css";
+import styles from "./Layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
@@ -17,13 +17,13 @@ export const Header = ({ name, home}) => {
             ) : (
                 <>
                     <Link href="/">
-                        <a>
+                        {/*<a>*/}
                             <img
                                 src="/images/Avator1.png"
                                 className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                                 alt={name}
                             />
-                        </a>
+                        {/*</a>*/}
                     </Link>
                     <h2 className={utilStyles.headingLg}>
                         <Link href="/">

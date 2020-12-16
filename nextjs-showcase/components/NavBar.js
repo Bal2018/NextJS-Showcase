@@ -6,14 +6,13 @@ const NavBar = ({pages}) => {
 
     return (
         <div className="NavBar">
-
             <ul>
-                {pages.map((page) => (
+                <li>
+                    {pages.map((page) => (
                     <NavbarItem key={page.link} label={page.label} path={page.link} />
-                ))}
+                    ))}
+                </li>
             </ul>
-
-
         </div>
     );
 }

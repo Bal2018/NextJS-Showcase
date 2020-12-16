@@ -1,19 +1,27 @@
-import styles from './layout.module.css'
+import styles from './Layout.module.css'
 import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Header} from "./Header";
 import {ContentBackBtn} from "./ContentBackBtn";
 import Head from "next/head";
 import NavBar from "./NavBar";
+import Socials from "./Socials";
 
-const name = 'Bal'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Baljinder Hayre'
+export const siteTitle = "Bal's NextJS Website"
 
 const pages = [
     {
-        label:"home",
-        link: "/"
+        label:"Blog",
+        link: "/blog"
     },
+    {
+        label:"About",
+        link: "/posts/intropage"
+    }
+];
+
+const SocialLinks = [
     {
         label:<FontAwesomeIcon icon={faTwitter}/>,
         link: "https://twitter.com/balhayre"
@@ -26,6 +34,7 @@ const pages = [
         link: "https://linkedin.com/in/baljinder-hayre"
     }
 ];
+
 
 export default function Layout({ children, home }) {
     return (
@@ -44,15 +53,17 @@ export default function Layout({ children, home }) {
                     )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
                 />
                 <meta name="og:title" content={siteTitle} />
-                <meta name="twitter:card" content="summary_large_image" />
+                {/*<meta name="twitter:card" content="summary_large_image" />*/}
             </Head>
-            <NavBar pages={pages}/>
 
             <Header name={name} home={Boolean(home)}/>
+            <NavBar pages={pages}/>
             <main>
                 {children}
             </main>
             <ContentBackBtn home={Boolean(home)}/>
+            <Socials pages={SocialLinks}/>
+
         </div>
     )
 }

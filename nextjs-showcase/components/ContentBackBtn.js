@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from './layout.module.css'
+import styles from './Layout.module.css'
 
 export const ContentBackBtn = ({ home }) => {
     if (!home){
