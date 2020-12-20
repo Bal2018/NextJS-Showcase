@@ -1,4 +1,4 @@
-import styles from "./Layout.module.css";
+import styles from "../styles/Layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 

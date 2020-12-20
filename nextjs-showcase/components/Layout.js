@@ -1,4 +1,4 @@
-import styles from './Layout.module.css'
+import styles from '../styles/Layout.module.css'
 import {faGithub, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Header} from "./Header";
@@ -10,11 +10,7 @@ import {Socials} from "./Socials";
 const name = 'Baljinder Hayre'
 export const siteTitle = "Bal's NextJS Website"
 
-const pages = [
-    {
-        label:<img src="/images/Avator1.png"/>,
-        link: "/"
-    },
+const pageLinks = [
     {
         label:"Blog",
         link: "/blog"
@@ -22,7 +18,9 @@ const pages = [
     {
         label:"About",
         link: "/posts/intropage"
-    },
+    }
+];
+const socialLinks = [
     {
         label:<FontAwesomeIcon icon={faTwitter}/>,
         link: "https://twitter.com/balhayre"
@@ -35,20 +33,6 @@ const pages = [
         link: "https://linkedin.com/in/baljinder-hayre"
     }
 ];
-
-// const SocialLinks = [
-//     {
-//         label:<FontAwesomeIcon icon={faTwitter}/>,
-//         link: "https://twitter.com/balhayre"
-//     },
-//     {
-//         label:<FontAwesomeIcon icon={faGithub}/>,
-//         link: "https://github.com/Bal2018"
-//     }, {
-//         label:<FontAwesomeIcon icon={faLinkedinIn}/>,
-//         link: "https://linkedin.com/in/baljinder-hayre"
-//     }
-// ];
 
 
 export default function Layout({ children, home }) {
@@ -72,7 +56,8 @@ export default function Layout({ children, home }) {
             </Head>
 
             <Header name={name} home={Boolean(home)}/>
-            <NavBar pages={pages }/>
+            <NavBar pages={pageLinks} socials={socialLinks}/>
+
             <main>
                 {children}
             </main>
